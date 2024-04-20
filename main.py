@@ -1,21 +1,21 @@
 import streamlit as st
 import pickle
 import re
-from sklearn.svm import SVC
-from sklearn.neural_network import MLPClassifier
-from sklearn.ensemble import RandomForestClassifier
-from mlxtend.classifier import StackingCVClassifier 
-from sklearn.multiclass import OneVsRestClassifier
-from mlxtend.classifier import StackingClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.svm import LinearSVC
-from sklearn.linear_model import SGDClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.svm import SVC
+# from sklearn.neural_network import MLPClassifier
+# from sklearn.ensemble import RandomForestClassifier
+# from mlxtend.classifier import StackingCVClassifier 
+# from sklearn.multiclass import OneVsRestClassifier
+# from mlxtend.classifier import StackingClassifier
+# from sklearn.ensemble import RandomForestClassifier
+# from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.naive_bayes import GaussianNB
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.ensemble import AdaBoostClassifier
+# from sklearn.svm import LinearSVC
+# from sklearn.linear_model import SGDClassifier
+# from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 model = pickle.load(open('SGD_SVC_LR_DT_RF.pkl','rb'))
