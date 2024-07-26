@@ -87,8 +87,8 @@ labels = ['Accounting and Finance',
 
 
 
-st.title('Multi-Label Text Classification')
-st.write('This is a multi-label text classification web app to predict the categories of a given text.')
+st.title('Multi-Class Document Classification')
+st.write('This is a multi-class document classification web app to predict the categories of a given text.')
 
 text = st.text_area('Enter the document text')
 
